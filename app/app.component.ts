@@ -8,9 +8,9 @@ import { Component, OnChanges, DoCheck } from '@angular/core';
   `
 })
 export class AppComponent implements DoCheck  {
-  name = '';
+  name = 'Gurudev';
 
-  ngDoCheck() {
-    console.log('Running change detection ', Date.now());
+  ngDoCheck(){
+
   }
 }
